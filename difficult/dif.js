@@ -5,14 +5,14 @@ let str = String(num);
 
 let sum = 1;
 
-  for (let digit of str) {
+  for (let digit of str) 
       sum = sum * Number(digit);
-  } 
-  let pow = sum ** 3;
-  let str2 = pow.toString;
-
+   
+  let pow = (sum ** 3);
   
-  console.log(sum);
-  console.log(str2.slice(3));
+
+  console.log(pow);
+  console.log(pow.toString().substring(0 , 2));
+  
 
   
